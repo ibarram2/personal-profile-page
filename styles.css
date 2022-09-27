@@ -55,6 +55,21 @@ a:hover {
   color: white
 }
 
+.text {
+  display: flex;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.titles {
+  text-align: center;
+}
+
 header {
   text-align: center;
   background: url('images/background.jpeg') no-repeat top center ;
@@ -71,10 +86,10 @@ header .profile-image {
   height: 150px;
   border-radius: 50%;
   border: 3px solid white;
-  transition: all .5s;
+  transition: all 1s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.5) rotate(360deg);
 }
 .tag {
   background-color: #efefef;
